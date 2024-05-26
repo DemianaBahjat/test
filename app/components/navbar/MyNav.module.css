@@ -1,0 +1,28 @@
+/* MyNav.module.css */
+.navContainer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content:center;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
